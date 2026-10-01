@@ -1,0 +1,4 @@
+model,selected_C,upper_grid_boundary,selected_at_upper_boundary
+TFIDF_full,30,1000,False
+TFIDF_prefix,30,1000,False
+TFIDF_bpe_prefix,10,1000,False

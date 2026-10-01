@@ -1,0 +1,13 @@
+feature,dimension
+general,7
+histogram,256
+byteentropy,256
+strings,177
+header,74
+section,224
+imports,1282
+exports,129
+datadirectories,34
+richheader,33
+authenticode,8
+pefilewarnings,88

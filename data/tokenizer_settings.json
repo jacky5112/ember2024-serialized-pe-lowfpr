@@ -1,0 +1,15 @@
+{
+  "model": "microsoft/codebert-base",
+  "revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "maximum_length": 512,
+  "content_limit": 510,
+  "vocabulary_size": 50265,
+  "special_token_ids": [
+    0,
+    2,
+    3,
+    1,
+    50264
+  ],
+  "tokenizer_class": "RobertaTokenizer"
+}

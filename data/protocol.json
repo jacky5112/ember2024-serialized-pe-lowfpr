@@ -1,0 +1,56 @@
+{
+  "dataset": "joyce8/EMBER2024",
+  "dataset_revision": "3d23efef7c0f0b702c5024400cfff4c3744a3832",
+  "model": "microsoft/codebert-base",
+  "model_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "file_types": [
+    "Win32",
+    "Win64",
+    "Dot_Net"
+  ],
+  "counts_per_format": {
+    "fit": 18000,
+    "tune": 2000,
+    "calibration": 4000,
+    "threshold": 20000,
+    "same_period": 10000
+  },
+  "later_period_per_format": 10000,
+  "sampling_seed": 31001,
+  "split_seed": 31002,
+  "training_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "max_length": 512,
+  "content_limit": 510,
+  "batch_size": 16,
+  "eval_batch_size": 64,
+  "epochs": 10,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "patience": 3,
+  "min_delta": 0.0001,
+  "tfidf_C": [
+    0.1,
+    1.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0,
+    1000.0
+  ],
+  "fpr_targets": [
+    0.001,
+    0.005,
+    0.01,
+    0.05
+  ],
+  "bootstrap_replicates": 1000,
+  "threshold_replicates": 1000,
+  "calibration_refits": 200,
+  "training_precision": "BF16",
+  "evaluation_precision": "FP32",
+  "numerical_dimension": 2568
+}

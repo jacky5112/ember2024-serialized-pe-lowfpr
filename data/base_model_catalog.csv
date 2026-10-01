@@ -1,0 +1,11 @@
+model,family,seed,variant
+LightGBM,LightGBM,-1,numerical
+TFIDF_full,TFIDF,-1,full
+TFIDF_prefix,TFIDF,-1,prefix
+TFIDF_bpe_prefix,TFIDF,-1,bpe_prefix
+CodeBERT_partial_s2026,CodeBERT,2026,partial
+CodeBERT_partial_s2027,CodeBERT,2027,partial
+CodeBERT_partial_s2028,CodeBERT,2028,partial
+CodeBERT_unfrozen_s2026,CodeBERT,2026,unfrozen
+CodeBERT_unfrozen_s2027,CodeBERT,2027,unfrozen
+CodeBERT_unfrozen_s2028,CodeBERT,2028,unfrozen
